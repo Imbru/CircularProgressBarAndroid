@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- circular progress bar attributes -->
+    <declare-styleable name="CircularProgressBar">
+        <attr name="stroke_width" format="dimension" />
+        <attr name="progress" format="float" />
+        <attr name="progressColor" format="color" />
+        <attr name="max_progress" format="float" />
+        <attr name="progressBackgroundColor" format="color" />
+        <attr name="progressCenterColor" format="color"></attr>
+        <attr name="textColor" format="color"></attr>
+        <attr name="textSize" format="dimension"></attr>
+        <attr name="progressText" format="string"/>
+    </declare-styleable>
+
+    <attr name="circularProgressBarStyle" format="reference" />
+
+</resources>
